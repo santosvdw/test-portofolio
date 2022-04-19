@@ -15,11 +15,52 @@ body {
   background-color: white;
 }
 
+:root * {
+  font-size: 16px;
+}
+
 :root h1, :root h2, :root h3, :root h4, :root h5, :root h6 {
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 :root p, :root a {
-  font-family: Cabin, sans-serif;
+  font-family: cabin, sans-serif;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2,369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+a {
+  color: #af1d24;
+}
+
+a :hover {
+  color: #6e1216;
+}
+
+footer {
+  background-color: #df3a42;
 }
 /*# sourceMappingURL=main.css.map */

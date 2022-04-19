@@ -1,1 +1,9 @@
 @import '../01-basics/variables';
+
+a {
+    color: $primary;
+
+    :hover {
+        color: $primary-dark
+    }
+}

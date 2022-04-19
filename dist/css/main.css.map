@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACEA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACnB,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,gBAAgB,ECNZ,KAAgB;CDOvB;;AEbD,AACI,KADC,CACD,EAAE,EADN,KAAK,CACG,EAAE,EADV,KAAK,CACO,EAAE,EADd,KAAK,CACW,EAAE,EADlB,KAAK,CACe,EAAE,EADtB,KAAK,CACmB,EAAE,CAAC;EACnB,WAAW,EDeP,OAAO,EAAE,UAAU;CCd1B;;AAHL,AAKI,KALC,CAKD,CAAC,EALL,KAAK,CAKE,CAAC,CAAC;EACD,WAAW,EDcV,KAAK,EAAE,UAAU;CCbrB",
+    "mappings": "ACEA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACnB,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,gBAAgB,ECNZ,KAAgB;CDOvB;;AEbD,AACI,KADC,CACD,CAAC,CAAC;EACE,SAAS,EDqBR,IAAI;CCpBR;;AAHL,AAKI,KALC,CAKD,EAAE,EALN,KAAK,CAKG,EAAE,EALV,KAAK,CAKO,EAAE,EALd,KAAK,CAKW,EAAE,EALlB,KAAK,CAKe,EAAE,EALtB,KAAK,CAKmB,EAAE,CAAC;EACnB,WAAW,EAAE,mBAAmB;CACnC;;AAPL,AASI,KATC,CASD,CAAC,EATL,KAAK,CASE,CAAC,CAAC;EACD,WAAW,EAAE,iBAAiB;CACjC;;AAIL,AAAA,EAAE,CAAC;EACC,SAAS,EAAG,QAAQ;CACvB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAG,QAAQ;CACvB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAG,QAAQ;CACvB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAG,QAAQ;CACvB;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAG,QAAQ;CACvB;;AAED,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;EACf,KAAK,ED3BD,OAAe;CC4BtB;;AOtCD,AAAA,CAAC,CAAC;EACE,KAAK,ERAE,OAAkB;CQK5B;;AAND,AAGI,CAHH,CAGG,MAAM,CAAC;EACH,KAAK,ERFE,OAAkB;CQG5B;;AILL,AAAA,MAAM,CAAC;EACH,gBAAgB,EZEJ,OAAkB;CYDjC",
     "sources": [
         "../../src/scss/main.scss",
         "../../src/scss/01-basics/_reset.scss",
@@ -8,9 +8,13 @@
         "../../src/scss/01-basics/_typography.scss",
         "../../src/scss/01-basics/_variables.scss",
         "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/01-basics/_breakpoints.scss",
+        "../../src/scss/01-basics/_variables.scss",
         "../../src/scss/02-components/_buttons.scss",
         "../../src/scss/01-basics/_variables.scss",
         "../../src/scss/02-components/_links.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/02-components/_shadows.scss",
         "../../src/scss/01-basics/_variables.scss",
         "../../src/scss/03-layout/_footer.scss",
         "../../src/scss/01-basics/_variables.scss",
