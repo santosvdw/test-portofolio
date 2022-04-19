@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "ACEA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,QAAQ,CAAC;EACnB,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,gBAAgB,ECNZ,KAAgB;CDOvB;;AEbD,AACI,KADC,CACD,EAAE,EADN,KAAK,CACG,EAAE,EADV,KAAK,CACO,EAAE,EADd,KAAK,CACW,EAAE,EADlB,KAAK,CACe,EAAE,EADtB,KAAK,CACmB,EAAE,CAAC;EACnB,WAAW,EDeP,OAAO,EAAE,UAAU;CCd1B;;AAHL,AAKI,KALC,CAKD,CAAC,EALL,KAAK,CAKE,CAAC,CAAC;EACD,WAAW,EDcV,KAAK,EAAE,UAAU;CCbrB",
+    "sources": [
+        "../../src/scss/main.scss",
+        "../../src/scss/01-basics/_reset.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/01-basics/_typography.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/02-components/_buttons.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/02-components/_links.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/03-layout/_footer.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/03-layout/_navigation.scss",
+        "../../src/scss/01-basics/_variables.scss",
+        "../../src/scss/04-pages/_home.scss",
+        "../../src/scss/01-basics/_variables.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
