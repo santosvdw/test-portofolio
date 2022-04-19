@@ -15,8 +15,9 @@ body {
   background-color: white;
 }
 
-:root * {
+:root {
   font-size: 16px;
+  color: #1a1a1a;
 }
 
 :root h1, :root h2, :root h3, :root h4, :root h5, :root h6 {
@@ -28,28 +29,27 @@ body {
 }
 
 h1 {
-  font-size: 4.209rem;
+  font-size: 5.653rem;
 }
 
 h2 {
-  font-size: 3.157rem;
+  font-size: 3.998rem;
 }
 
 h3 {
-  font-size: 2,369rem;
+  font-size: 2.827rem;
 }
 
 h4 {
-  font-size: 1.777rem;
+  font-size: 1.999rem;
 }
 
 h5 {
-  font-size: 1.333rem;
+  font-size: 1.41rem;
 }
 
 p {
-  font-size: 1rem;
-  color: #1a1a1a;
+  font-size: 1.1rem;
 }
 
 a {

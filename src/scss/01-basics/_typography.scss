@@ -1,9 +1,8 @@
 @import './variables';
 
 :root {
-    * {
-        font-size: $f-size;
-    }
+    font-size: $f-size;
+    color: $black;
     
     h1, h2, h3, h4, h5, h6 {
         font-family: poppins, sans-serif;
@@ -16,26 +15,25 @@
 
 
 h1 {
-    font-size:  4.209rem;   
+    font-size:  5.653rem;   
 }
     
 h2 {
-    font-size:  3.157rem;   
+    font-size:  3.998rem;   
 }
     
 h3 {
-    font-size:  2,369rem;   
+    font-size:  2.827rem;   
 }
     
 h4 {
-    font-size:  1.777rem;   
+    font-size:  1.999rem;   
 }
     
 h5 {
-    font-size:  1.333rem;   
+    font-size:  1.41rem;   
 }
 
 p {
-    font-size: 1rem;
-    color: $black;
+    font-size: 1.1rem;
 }
