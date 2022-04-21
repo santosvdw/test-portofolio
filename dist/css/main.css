@@ -57,6 +57,26 @@ a :hover {
   color: hsl(357deg, 72%, 25%);
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsl(45deg, 29%, 97%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(357deg, 72%, 40%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(357deg, 72%, 25%);
+}
+
 footer {
   background-color: hsl(357deg, 72%, 55%);
 }/*# sourceMappingURL=main.css.map */
