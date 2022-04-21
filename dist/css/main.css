@@ -54,6 +54,8 @@ p {
 
 a {
   color: #af1d24;
+  -webkit-text-decoration-color: #af1d24;
+          text-decoration-color: #af1d24;
 }
 
 a :hover {
