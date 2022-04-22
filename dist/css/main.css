@@ -1,25 +1,29 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *, *::after, *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
 
 body {
   overflow-x: hidden;
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: white;
 }
 
 :root {
   font-size: 16px;
-  color: hsl(0deg, 0%, 10%);
+  color: #1a1a1a;
 }
+
 :root h1, :root h2, :root h3, :root h4, :root h5, :root h6 {
   font-family: poppins, sans-serif;
 }
+
 :root p, :root a {
   font-family: cabin, sans-serif;
 }
@@ -49,12 +53,13 @@ p {
 }
 
 a {
-  color: hsl(357deg, 72%, 40%);
-  -webkit-text-decoration-color: hsl(357deg, 72%, 40%);
-          text-decoration-color: hsl(357deg, 72%, 40%);
+  color: #af1d24;
+  -webkit-text-decoration-color: #af1d24;
+          text-decoration-color: #af1d24;
 }
+
 a :hover {
-  color: hsl(357deg, 72%, 25%);
+  color: #6e1216;
 }
 
 /* width */
@@ -64,19 +69,15 @@ a :hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: hsl(45deg, 29%, 97%);
+  background: #faf8f5;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: hsl(357deg, 72%, 40%);
+  background: #af1d24;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(357deg, 72%, 25%);
+  background: #6e1216;
 }
-
-footer {
-  background-color: hsl(357deg, 72%, 55%);
-}/*# sourceMappingURL=main.css.map */
