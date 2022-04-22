@@ -1,0 +1,14 @@
+@import '../01-basics/variables';
+
+div.content {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+
+div.container {
+    width: 90vw;
+    overflow-x: hidden;
+}

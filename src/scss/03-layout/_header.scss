@@ -1,0 +1,12 @@
+@import '../01-basics/variables';
+
+header {
+    display: flex;
+    justify-content: center;
+    img {
+        
+        max-width: 1500px;
+        height: 600px;
+        aspect-ratio: 3/1;
+    }
+}

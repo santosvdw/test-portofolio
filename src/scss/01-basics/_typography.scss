@@ -13,6 +13,10 @@
     }
 }
 
+body {
+    font-size: 1rem;
+}
+
 
 h1 {
     font-size:  5.653rem;   
@@ -23,11 +27,11 @@ h2 {
 }
     
 h3 {
-    font-size:  2.827rem;   
+    font-size:  3.4rem;   
 }
     
 h4 {
-    font-size:  1.999rem;   
+    font-size:  2.5rem;   
 }
     
 h5 {
@@ -35,5 +39,15 @@ h5 {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+}
+
+.santos h2 {
+    font-family: $f-secondary;
+    font-weight: 500;
+    letter-spacing: -0.25rem;
+}
+
+span.blue {
+    color: $primary;
 }

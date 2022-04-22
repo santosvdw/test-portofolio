@@ -1,1 +1,178 @@
 @import '../01-basics/variables';
+
+nav {
+    display: flex;
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        margin: 1.5rem 0;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    
+        a {
+            width: max-content;
+            height: fit-content;
+        }
+    
+        span {
+            &.buttons {
+                display: flex;
+                a {
+                    &:hover {
+                        color: $primary;
+    
+                        button {
+                            border: 1px $primary-dark solid;
+                        }
+                    }
+                }
+    
+                button {
+                    margin: 0 1.5em;
+                }
+            }
+        }
+    }  
+}
+
+@media screen and (min-width: 1025px) {
+    nav {
+        margin: 1.5rem 0;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    
+        a {
+            width: max-content;
+            height: fit-content;
+        }
+    
+        span {
+            &.buttons {
+                display: flex;
+                a {
+                    &:hover {
+                        color: $primary;
+    
+                        button {
+                            border: 1px $primary-dark solid;
+                        }
+                    }
+                }
+    
+                button {
+                    margin: 0 1.25em;
+                }
+            }
+        }
+    }  
+}
+
+@media screen and (min-width: 769px) {
+    nav {
+        margin: 1.5rem 0;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+    
+        a {
+            width: max-content;
+            height: fit-content;
+        }
+    
+        span {
+            &.buttons {
+                display: flex;
+                a {
+                    &:hover {
+                        color: $primary;
+    
+                        button {
+                            border: 1px $primary-dark solid;
+                        }
+                    }
+                }
+    
+                button {
+                    margin: 0 1em;
+                }
+            }
+        }
+    }  
+}
+
+@media screen and (min-width: 481px) {
+    nav {
+        margin: 1.5rem 0;
+        flex-flow: row wrap;
+        align-items: space-around;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    
+        a {
+            width: max-content;
+            height: fit-content;
+        }
+    
+        span {
+            margin: 10px 0;
+            &.buttons {
+                display: flex;
+                a {
+                    &:hover {
+                        color: $primary;
+    
+                        button {
+                            border: 1px $primary-dark solid;
+                        }
+                    }
+                }
+    
+                button {
+                    margin: 0 1em;
+                }
+            }
+        }
+    }      
+}
+
+@media screen and (min-width: 320px) {
+    nav {
+        margin: 1.5rem 0;
+        flex-flow: row wrap;
+        align-items: space-around;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    
+        a {
+            width: max-content;
+            height: fit-content;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+        }
+    
+        span {
+            margin: 10px 0;
+            &.buttons {
+                display: flex;
+                a {
+                    &:hover {
+                        color: $primary;
+    
+                        button {
+                            border: 1px $primary-dark solid;
+                        }
+                    }
+                }
+    
+                button {
+                    margin: 0 1em;
+                }
+            }
+        }
+    }      
+}

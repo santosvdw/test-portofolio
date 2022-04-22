@@ -1,1 +1,65 @@
-@import '../01-basics/variables'
+@import '../01-basics/variables';
+
+button {
+    &.outline {
+        font-family: $f-secondary;
+        background-color: $white;
+        outline: none;
+        border: 1px solid $black;
+        border-radius: 28px;
+    }
+
+    &.bold {
+        font-family: $f-secondary;
+        background-color: $white;
+        outline: none;
+        border: 1px solid $black;
+        border-radius: 28px;
+    }
+}    
+@media screen and (min-width: 1201px) {
+    button {
+        &.outline {
+            font-size: 1.1rem;
+            padding: 0.5em 1.3em;
+        }
+
+        &.bold {
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 0.5em 1.3em;
+        }
+    }    
+}
+
+
+@media screen and (max-width:1200px) {
+    button {
+        &.outline {
+            font-size: 1rem;
+            padding: 0.5em 1.3em;
+        }
+
+        &.bold {
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 0.5em 1.3em;
+        }
+    }   
+}
+
+
+@media screen and (max-width:480px) {
+    button {
+        &.outline {
+            font-size: 0.75rem;
+            padding: 0.5em 1.3em;
+        }
+
+        &.bold {
+            font-size: 0.75rem;
+            font-weight: 500;
+            padding: 0.5em 1.3em;
+        }
+    }   
+}
